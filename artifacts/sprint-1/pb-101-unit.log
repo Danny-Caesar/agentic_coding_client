@@ -1,0 +1,11 @@
+[PB-101] Unit Test Report
+
+Test suite: rtsp_receiver_tests
+Total tests: 6
+Passed: 6
+Failed: 0
+
+Notes:
+- RTSP connection established to test stream
+- Video frames decoded using OpenCV/FFmpeg bindings
+- Frame rate stability measured at ~30 FPS under test conditions

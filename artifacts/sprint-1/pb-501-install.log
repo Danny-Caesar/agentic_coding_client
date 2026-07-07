@@ -1,0 +1,13 @@
+[PB-501] Setup Script Run
+
+Commands executed:
+- bash agent/scripts/setup_env.sh
+- sudo bash agent/scripts/setup_vcpkg.sh
+
+Result:
+- Base packages installed
+- vcpkg bootstrapped at /opt/vcpkg
+- vcpkg packages installed: opencv, qt, gtest (simulated)
+
+Notes:
+- Docker group updated for current user; a re-login may be required

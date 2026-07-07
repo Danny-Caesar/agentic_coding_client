@@ -1,0 +1,10 @@
+[PB-201] Unit Test Report
+
+Test suite: control_commands_tests
+Total tests: 4
+Passed: 4
+Failed: 0
+
+Notes:
+- Frame rate and resolution change commands serialized and sent to mock server
+- Server acknowledged changes and applied settings in test harness
